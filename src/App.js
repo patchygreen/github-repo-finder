@@ -15,7 +15,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      message: "Enter a search term.",
+      message: "Enter a github repo name and click Fetch Repo.",
       repoName: "",
       repoStars: 0,
       repoForks: 0,

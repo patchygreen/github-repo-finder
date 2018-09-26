@@ -22,7 +22,7 @@ describe("<App />", () => {
   });
 
   it("has correct alert text", () => {
-    expect(wrapper.find('div [role="alert"]').text()).toBe("Enter a search term.");
+    expect(wrapper.find('div [role="alert"]').text()).toBe("Enter a github repo name and click Fetch Repo.");
   });
 
   it('matches the snaphsot', () => {
