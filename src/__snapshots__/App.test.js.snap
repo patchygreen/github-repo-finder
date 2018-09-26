@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches the snaphsot 1`] = `
+<div
+  className="App container-fluid mt-5 p-4 rounded border border-dark"
+>
+  <SearchBar
+    onSearchSubmit={[Function]}
+    placeholder="Enter a github repo name e.g. facebook/react"
+  />
+  <div
+    className="mt-3 alert alert-info"
+    role="alert"
+  >
+    Enter a search term.
+  </div>
+</div>
+`;

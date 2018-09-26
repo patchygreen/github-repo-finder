@@ -1,0 +1,15 @@
+body {
+  background-color: #efefef;
+}
+
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .App {
+    width: 90%;
+  }
+}
